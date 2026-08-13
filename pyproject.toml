@@ -1,0 +1,14 @@
+[project]
+name = "stock"
+version = "0.1.0"
+description = "金融数据层 - 基于 AkShare 的统一数据接口"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.18.86",
+    "fastapi>=0.141.1",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "tenacity>=9.1.4",
+    "uvicorn>=0.52.2",
+]
