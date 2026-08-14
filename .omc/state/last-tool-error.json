@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"echo \\\"=== 1. health ===\\\" && curl -s \\\"http://localhost:8000/api/health\\\" && echo \\\"\\\" && echo \\\"=== 2. spot (auto) ===\\\" && curl -s \\\"http://localhost:8000/api/stock/spot?symbol=000001\\\"...",
-  "error": "Exit code 7\n=== 1. health ===",
-  "timestamp": "2026-08-13T08:27:11.447Z",
-  "retry_count": 1
-}
